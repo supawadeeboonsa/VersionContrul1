@@ -34,7 +34,7 @@
         v-model="name"
 <<<<<<< HEAD
         label="Your name *"
-        hint="Name and surname"
+        hint="baiporrrrrrr379"
 
         label="ชื่อ-สกุล *"
         hint="ชื่อและนามสกุล"
