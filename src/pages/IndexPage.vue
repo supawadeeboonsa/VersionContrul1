@@ -33,7 +33,7 @@
         filled
         v-model="name"
 <<<<<<< HEAD
-        label="Your name *"
+        label="Your name dsfgsdgsdfgsfd *"
         hint="Name and surname"
 
         label="ชื่อ-สกุล สุภาวดี บูญสา 379*"
