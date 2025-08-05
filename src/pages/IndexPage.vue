@@ -1,5 +1,9 @@
 <template>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> thai-lang
   <q-page class="flex flex-center">
     <img
       alt="Quasar logo"
@@ -11,9 +15,13 @@
 
 <script setup>
 //
+<<<<<<< HEAD
 
 
 
+=======
+=======
+>>>>>>> thai-lang
   <div class="q-pa-md" style="max-width: 400px">
 
     <q-form
@@ -24,6 +32,7 @@
       <q-input
         filled
         v-model="name"
+<<<<<<< HEAD
         label="Your name *"
         hint="Name and surname"
 
@@ -31,12 +40,19 @@
         hint="ชื่อและนามสกุล"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type somethingawdawd']"
+=======
+        label="ชื่อ-สกุล379 *"
+        hint="ชื่อและนามสกุล379"
+        lazy-rules
+        :rules="[ val => val && val.length > 0 || 'กรุณาพิมพ์ชื่อ']"
+>>>>>>> thai-lang
       />
 
       <q-input
         filled
         type="number"
         v-model="age"
+<<<<<<< HEAD
 
         label="อายุ: *"
         lazy-rules
@@ -49,16 +65,26 @@
         :rules="[
           val => val !== null && val !== '' || 'Please type your age',
           val => val > 0 && val < 100 || 'Please type a real age'
+=======
+        label="อายุ *"
+        lazy-rules
+        :rules="[
+          val => val !== null && val !== '' || 'กรุณาใส่อายุ',
+          val => val > 0 && val < 100 || 'กรุณาใส่อายุจริง'
+>>>>>>> thai-lang
         ]"
       />
 
       <q-toggle v-model="accept" label="I accept the license and terms" />
 
       <div>
+<<<<<<< HEAD
 
         <q-btn label="Submit" type="submit" color="primary"/>
         <q-btn label="Reset" type="reset" color="primary" flat class="q-ml-sm" />
 
+=======
+>>>>>>> thai-lang
         <q-btn label="ยืนยัน" type="submit" color="primary"/>
         <q-btn label="เริ่มใหม่" type="reset" color="primary" flat class="q-ml-sm" />
       </div>
@@ -111,5 +137,9 @@ export default {
     }
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> thai-lang
+>>>>>>> thai-lang
 </script>
