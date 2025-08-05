@@ -74,8 +74,8 @@
         label="อายุ *"
         lazy-rules
         :rules="[
-          val => val !== null && val !== '' || 'กรุณาใส่อายุ',
-          val => val > 0 && val < 100 || 'กรุณาใส่อายุจริง'
+          val => val !== null && val !== '' || 'กรุณาใส่อายุ age 18-25',
+          val => val > 0 && val < 100 || 'กรุณาใส่อายุจริง age 18-25'
 >>>>>>> thai-lang
         ]"
       />
