@@ -31,7 +31,7 @@
     >
       <q-input
         filled
-        v-model="name"
+        v-model="name befgnhdndngdndddnhn"
 <<<<<<< HEAD
 <<<<<<< HEAD
         label="Your name fgdfsgfdgsfdgsdg *"
