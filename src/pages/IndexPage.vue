@@ -36,7 +36,7 @@
         label="Your name *"
         hint="Name and surname"
 
-        label="ชื่อ-สกุล *"
+        label="ชื่อ-สกุล สุภาวดี บูญสา*"
         hint="ชื่อและนามสกุล"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type somethingawdawd']"
