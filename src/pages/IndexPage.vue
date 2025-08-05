@@ -33,11 +33,16 @@
         filled
         v-model="name"
 <<<<<<< HEAD
-        label="Your name *"
+<<<<<<< HEAD
+        label="Your name fgdfsgfdgsfdgsdg *"
         hint="baiporrrrrrr379"
+=======
+        label="Your name dsfgsdgsdfgsfd *"
+        hint="Name and surname"
+>>>>>>> thai-lang
 
-        label="ชื่อ-สกุล *"
-        hint="ชื่อและนามสกุล"
+        label="ชื่อ-สกุล สุภาวดี บูญสา 379*"
+        hint="ชื่อและนามสกุล supawadee boonsa 379"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type somethingawdawd']"
 =======
